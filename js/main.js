@@ -1,5 +1,5 @@
 /*aquí va tu código*/
-var localStorage = require('json-localstorage');
+
 function guardarDatos(){
 	localStorage.clave = document.getElementById('clave').value;
 	localStorage.valor = document.getElementById('valor').value;
